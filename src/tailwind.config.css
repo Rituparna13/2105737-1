@@ -1,0 +1,18 @@
+/* tailwind.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+.container {
+  @apply mx-auto;
+}
+
+.product-title {
+  @apply text-3xl font-bold mb-8;
+}
+
+.product-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+}
